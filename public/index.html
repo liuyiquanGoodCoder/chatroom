@@ -2,6 +2,7 @@
 <html>
 <head>
 	<title>chat</title>
+	<link rel="stylesheet" type="text/css" href="/style/style.css">
 </head>
 <body>
 	<div id="content">
@@ -10,6 +11,15 @@
 		<div id="messages"></div>
 		<form id="send-form">
 			<input id="send-message"/>
+			<input id="send-button" type="submit" value="Send" />
+
+			<div id="help">
+				Chat commands:
+				<ul>
+					<li>Change nickname:<code>/nick [username]</code></li>
+					<li>Join/create room:<code>/join [room name]</code></li>
+				</ul>
+			</div>
 		</form>
 		
 	</div>
